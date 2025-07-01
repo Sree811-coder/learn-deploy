@@ -6,6 +6,8 @@ app.get('/', (req, res) => {
     res.send('Hi Welcome to learning deployment');
 });
 
-app.listen(port, () => {
+const server = app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
+
+module.exports = { app, server };
