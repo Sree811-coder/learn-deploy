@@ -1,0 +1,23 @@
+{
+  "name": "learn-deploy",
+  "version": "1.0.0",
+  "description": "To learn deployment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sree811-coder/learn-deploy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sree811-coder/learn-deploy/issues"
+  },
+  "homepage": "https://github.com/Sree811-coder/learn-deploy#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
